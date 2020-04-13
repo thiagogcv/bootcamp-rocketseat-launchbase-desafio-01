@@ -17,23 +17,26 @@ precisa ser de no mínimo 95 anos,
 enquanto a mulher precisa ter no mínimo 85 anos na soma;
  */
 
-
-const nome = "Carlos"
-const sexo = "M"
-const idade = 35
-const contribuicao = 61
+const nome = "Catia"
+const sexo = "F"
+const idade = 65
+const contribuicao = 25
 
 const tempoContribuicao = idade + contribuicao
 
-if (tempoContribuicao >= 95 && idade >= 35 && sexo === "M") {
-    console.log(`${nome}, você pode se aposentar. você tem ${tempoContribuicao} anos de contribuição e idade de ${idade} anos permitida`)
-    
-}
+contribuicaoMulher = 
+sexo == "F" && (contribuicao >= 30 || tempoContribuicao >= 85)
 
-if (tempoContribuicao >= 85 && idade >= 30 && sexo === "F") {
-    console.log(`${nome}, você pode se aposentar. você tem ${tempoContribuicao} anos de contribuição e idade de ${idade} anos permitida`)
+contribuicaoHomem = 
+sexo == "M" && (contribuicao >= 35 || tempoContribuicao >= 95)
 
-}else {
-    console.log(`${nome}, você não pode se aposentar, você tem ${tempoContribuicao} anos de contribuição e sua idade de ${idade} anos não atende o mínimo permitido`);
+if (contribuicaoHomem || contribuicaoMulher) {
+    console.log(`Tempo de contribuição: ${tempoContribuicao} anos`)
+    console.log(`Idade: ${idade} anos`)
+    console.log(`${nome}, você pode se aposentar`)
+} else{
+    console.log(`Tempo de contribuição: ${tempoContribuicao} anos`)
+    console.log(`Idade: ${idade} anos`)
+    console.log(`${nome}, você não pode se aposentar`);
     
 }
