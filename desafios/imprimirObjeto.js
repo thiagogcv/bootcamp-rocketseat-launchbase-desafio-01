@@ -11,6 +11,6 @@ const usuario = {
     }
 }
 
-console.log(`O usuário ${usuario.nome} trabalha na empresa ${usuario.empresa.nome} que está localizada na ${usuario.empresa.endereço.rua}, ${usuario.empresa.endereço.numero}`);
+console.log(`O usuário ${usuario.nome} trabalha na empresa ${usuario.empresa.nome}, com foco em ${usuario.empresa.foco} que está localizada na ${usuario.empresa.endereço.rua}, ${usuario.empresa.endereço.numero}. A cor padrão da empresa é ${usuario.empresa.cor}`);
 
 
