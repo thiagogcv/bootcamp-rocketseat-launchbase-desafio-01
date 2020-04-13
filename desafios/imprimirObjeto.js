@@ -1,13 +1,16 @@
-const empresa = {
-    nome: "Rocketseat",
-    cor: "Roxo",
-    foco: "Programação",
-    endereço: {
-        rua: "Rua Guilherme Gembala",
-        numero: 260
+const usuario = {
+    nome: "Diego",
+    empresa: {
+        nome: "Rocketseat",
+        cor: "Roxo",
+        foco: "Programação",
+        endereço: {
+            rua: "Rua Guilherme Gembala",
+            numero: 260
+        }
     }
 }
 
-console.log(`A empresa ${empresa.nome} está localizada na ${empresa.endereço.rua}, ${empresa.endereço.numero}`);
+console.log(`O usuário ${usuario.nome} trabalha na empresa ${usuario.empresa.nome} que está localizada na ${usuario.empresa.endereço.rua}, ${usuario.empresa.endereço.numero}`);
 
 
