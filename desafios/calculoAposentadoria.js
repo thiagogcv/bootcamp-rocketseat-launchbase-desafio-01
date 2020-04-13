@@ -19,8 +19,8 @@ enquanto a mulher precisa ter no mínimo 85 anos na soma;
 
 const nome = "Catia"
 const sexo = "F"
-const idade = 65
-const contribuicao = 25
+const idade = 66
+const contribuicao = 19
 
 const tempoContribuicao = idade + contribuicao
 
