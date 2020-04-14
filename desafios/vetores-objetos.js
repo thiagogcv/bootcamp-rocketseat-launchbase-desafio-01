@@ -1,4 +1,3 @@
-
 const usuario = [
     {
         nome: "Diego",
