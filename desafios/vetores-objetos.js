@@ -1,9 +1,3 @@
-/** Crie um programa com um objeto para armazenar dados de um programador como nome, idade e tecnologias que trabalha.
-
-Um programador pode trabalhar com várias tecnologias, por isso armazene essas tecnologias em um array.
-
-Imprima em tela o nome e especialidade da primeira tecnologia que o usuário utiliza
-**/
 
 const usuario = [
     {
