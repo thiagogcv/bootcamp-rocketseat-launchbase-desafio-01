@@ -7,17 +7,20 @@ const usuarios = [
     { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
 ]
 
-function checarUsuario(usuario){
+function checaSeUsuarioUsaCSS(usuario) {
+    for (let tecnologia of usuarios.tecnologias) {
+        if (tecnologia == "CSS") {
+            return true
+        }
+    }
+
+    return false
+} 
 
 for (let i = 0; i < usuarios.length; i++) {
-    const checarUsuario = checarUsuario(usuarios[i], usuarios[i].tecnologias[i])
-
-}
-if (checarUsuario) {
-    console.log(`O usuário ${usuarios} trabalha com CSS`) ;
-    
-}else{
-    console.log(`O usuário ${usuarios} não utiliza CSS`)
-}
-
-}
+    const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuarios[i])
+  
+    if (usuarioTrabalhaComCSS) {
+      console.log(`O usuário ${usuarios[i].nome} trabalha com CSS`);
+    }
+  } 
