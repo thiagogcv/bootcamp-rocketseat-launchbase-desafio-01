@@ -19,7 +19,7 @@
         const somaReceitas = somaNumeros(receitas)
         const somaDespesas = somaNumeros(despesas)
 
-        return receitas - despesas
+        return somaNumeros(receitas) - somaNumeros(despesas)
 
     }
 
