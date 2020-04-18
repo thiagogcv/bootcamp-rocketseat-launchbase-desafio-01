@@ -1,4 +1,4 @@
-const usuario = [
+const programador = [
     {
         nome: "Diego",
         idade: 25,
@@ -31,5 +31,5 @@ const usuario = [
     }
 ]
 
-console.log(`O usuário ${usuario[0].nome}, tem ${usuario[0].idade} anos e trabalha com ${usuario[0].tecnologias[0].nome}, com a especialidade em ${usuario[0].tecnologias[0].especialidade}. Quanto o usuário ${usuario[1].nome}, tem ${usuario[1].idade} anos, e trabalha com ${usuario[1].tecnologias[0].nome}, com especialidade em ${usuario[1].tecnologias[0].especialidade}. Já o usuário ${usuario[2].nome}, tem ${usuario[2].idade} anos e trabalha com ${usuario[2].tecnologias[1].nome} com especialidade na ${usuario[2].tecnologias[1].especialidade}.`)
+console.log(`O usuário ${programador[0].nome}, tem ${programador[0].idade} anos e trabalha com ${programador[0].tecnologias[0].nome}, com a especialidade em ${programador[0].tecnologias[0].especialidade}. Quanto o usuário ${programador[1].nome}, tem ${programador[1].idade} anos, e trabalha com ${programador[1].tecnologias[0].nome}, com especialidade em ${programador[1].tecnologias[0].especialidade}. Já o usuário ${programador[2].nome}, tem ${programador[2].idade} anos e trabalha com ${programador[2].tecnologias[1].nome} com especialidade na ${programador[2].tecnologias[1].especialidade}.`)
 
