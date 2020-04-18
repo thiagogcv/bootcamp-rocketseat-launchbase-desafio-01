@@ -8,7 +8,7 @@ const usuarios = [
 ]
 
 function checaSeUsuarioUsaCSS(usuario) {
-    for (let tecnologia of usuarios.tecnologias) {
+    for (let tecnologia of usuario.tecnologias) {
         if (tecnologia == "CSS") {
             return true
         }
